@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #222;
+    font-family: sans-serif;
+}
+
+/* Header*/
+
+.navbar{
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+}
+
+a{
+    color: #222;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.corousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Main*/
+
+.about{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+.information{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.contact{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.logo{
+    height: 20px;
+    width: 30px;
+}
+
+/* Footer */
+footer{
+    background:#F5F5F5;
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
