@@ -21,17 +21,21 @@
 <body>
     <!-- Navigation bar -->    
 <header>
-<nav class="navbar navbar-expand-md">
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRes">
         <span class="navbar-toggler-icon"></span>
     </button>
-        <div class="collapse navbar-collapse id=navbarRes">
+        <div class="collapse navbar-collapse" id="navbarRes">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#first">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#third">Practical information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#second">Cities</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#fourth">Contact information</a>
@@ -41,6 +45,7 @@
                 </li>
             </ul> 
         </div>
+</div>
 </nav>
 </header>
     
@@ -55,7 +60,35 @@
         </p>
 </div>
     
-
+    <!-- Top three cities -->  
+  
+<div class="cities">
+ <h1 id="second">Top three cities</h1>    
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="card1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Amsterdam</h5>
+      <p class="card-text">The draw of Amsterdam is clear to see: the city is an Instagrammer's dream, with gorgeous 17th-century architecture and quaint cobbled streets. If you haven't been before, make sure you see the most obvious sights – the Rijksmuseum, Anne Frank’s House, and Van Gogh Museum are all worth your time and money.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="card2-2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Rotterdam</h5>
+      <p class="card-text"> Rotterdam is the place to go for architecture aficionados. The city didn't fare well in the Second World War, and when it was rebuilt, the city council decided that instead of resurrecting the city as it was, it would be rebuilt with the future in mind.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="card3-2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Arnhem</h5>
+      <p class="card-text">If you're interested in military history, you'll be interested in Arnhem. The infamous Battle of Arnhem took place here in September 1944. Allied Forces tried, and failed, to capture what is now known as the John Frost Bridge in their plan to advance into Germany.</p>
+    </div>
+  </div>
+</div>
+</div> 
+    
     <!-- Practical information -->  
 <div class="information">
     <h2 id="third"> Practical information</h2>
@@ -64,8 +97,7 @@
         <li>The language is dutch</li>
         <li>The capitol is Amsterdam</li>
     </ul>
-</div>    
-    
+</div>  
     
     <!-- Contact information -->  
 
