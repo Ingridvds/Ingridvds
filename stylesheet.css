@@ -9,16 +9,12 @@ html, body{
 
 .navbar{
     padding: 10px;
-    background-color: #F5F5F5;
 }
 
 .navbar-nav li{
     padding-right: 30px;
 }
 
-a{
-    color: #222;
-}
 
 .nav-link {
     font-size: 20px;
@@ -31,19 +27,30 @@ a{
 
 /* Main*/
 
-.about{
-    padding-left: 200px;
+.card-group{
     padding-top: 20px;
-    padding-right: 200px;
+    padding-right: 100px;  
+    padding-bottom: 30px;
+}
+
+.cities{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.about{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
 }
 
 .information{
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 20px;
 }
 
 .contact{
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
